@@ -1,0 +1,172 @@
+JFDML JFormDesigner: "8.0.1.0.199" Java: "11.0.14.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/img/酒店.png" )
+			"title": "酒店管理系统"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "订房管理"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 1, 14 )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/全部订单.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "退房管理"
+				"font": &Font0 new java.awt.Font( "Microsoft YaHei UI", 1, 14 )
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/退房.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": "商品订单"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/商品订单.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 270
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"text": "房间打扫"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/打扫.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 400
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "房型管理"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/类型.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "linkRoomTypeUi", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 10
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "房间管理"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/房间.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 140
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button7"
+				"text": "会员等级"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/等级.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 270
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button8"
+				"text": "财务管理"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/财务.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 530
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button9"
+				"text": "会员信息"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/会员.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 400
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button10"
+				"text": "住宿类型"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/住宿类型.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 530
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button11"
+				"text": "商品管理"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/商品管理.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 660
+				"y": 305
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button12"
+				"text": "用户管理"
+				"font": #Font0
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/用户管理.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 660
+				"y": 130
+				"width": 130
+				"height": 110
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "酒店管理系统"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 1, 28 )
+				"horizontalAlignment": 0
+				"foreground": sfield java.awt.Color white
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 290
+				"y": 30
+				"width": 215
+				"height": 45
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/img/bg.jpg" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 800
+				"height": 530
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 800, 530 )
+		} )
+	}
+}
